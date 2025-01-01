@@ -5,6 +5,64 @@
     margin: 0px;
 }
 
-body{
-    background-color: ;
+body, main{
+   
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    background-color: green;
+    background: url(../imagens/tela.gif) center top no-repeat fixed;
+    background-size: cover;
+    
+}
+
+#telefone{
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../imagens/frame-iphone.png) center center no-repeat fixed;   
+}
+
+#tela{
+    position: relative;
+    top: 13%;
+    left: 7.3%;
+    width: 266px;
+    height: 468px;
+}
+
+#redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.733);
+    box-sizing: border-box;
+    
+}
+
+#redes {
+    text-align: right;
+}
+
+#redes img:hover {
+    border: 2px solid rgba(127, 255, 212, 0.555);
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 5px 0px rgba(8, 224, 231, 0.63);
+    transition:transform 0.5s
+}
+
+#redes img:active {
+    border: 2px solid rgba(127, 255, 212, 0.555);
+    transform: translate(-1px, -0px);
+    box-shadow: 3px 3px 5px 1px rgba(172, 231, 8, 0.63);
+    transition:transform 0.5s
 }
